@@ -850,7 +850,7 @@ try {
 		<link rel="stylesheet" href="https://guild.hypcvgm.top/member/static/css/mdui.min.css">
 		<script src="https://guild.hypcvgm.top/member/static/js/mdui.min.js"></script>
 ```
-一定要是`https://guild.hypcvgm.top/member/static/js/mdui.min.js`和`https://guild.hypcvgm.top/member/static/css/mdui.min.css`你也可以在Github上面拉Git回去CSS和JS
+一定要是`https://guild.hypcvgm.top/member/static/js/mdui.min.js` 和 `https://guild.hypcvgm.top/member/static/css/mdui.min.css`你也可以在Github上面拉Git回去CSS和JS
 
 2、本代码是以简单小巧为主，删除了安全部分，请你们自行添加，如果导致数据库丢失，后果自负
 
