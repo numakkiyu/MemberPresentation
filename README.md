@@ -785,7 +785,7 @@ try {
 ```
 ----
 6、logout.php页面源码
-```
+```php
 <?php
 // 开始会话
 session_start();
