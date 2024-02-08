@@ -11,7 +11,7 @@
 源码展示
 
 1、index.php页面源码
-```
+```php
 <?php
 require 'config.php';
 require 'functions.php';
