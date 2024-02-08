@@ -37,7 +37,7 @@ CREATE TABLE `creators` (
 
 LOCK TABLES `creators` WRITE;
 /*!40000 ALTER TABLE `creators` DISABLE KEYS */;
-INSERT INTO `creators` VALUES (1,'张三','100000','https://github.com');
+INSERT INTO `creators` VALUES (01,'张三','100000','https://github.com');
 /*!40000 ALTER TABLE `creators` ENABLE KEYS */;
 UNLOCK TABLES;
 
