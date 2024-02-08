@@ -157,7 +157,7 @@ $creators = getCreators();
 ```
 ----
 2、admin.php页面源码
-```
+```php
 <?php
 require 'config.php';
 require 'functions.php';
@@ -422,7 +422,7 @@ form + form {
 ```
 ----
 3、login.php页面源码
-```
+```php
 <?php
 session_start();
 
@@ -693,7 +693,7 @@ a {
 ```
 ----
 4、functions.php界面
-```
+```php
 <?php
 require 'config.php';
 
@@ -763,7 +763,7 @@ function nicknameExists($name, $excludeId = null) {
 ```
 ----
 5、config.php页面源码
-```
+```php
 <?php
 // 数据库配置信息
 $host = 'localhost'; // 数据库服务器地址
@@ -813,7 +813,7 @@ exit;
 上面就是PHP代码的所有文件，简单小巧，目前不支持特殊符号以及特殊字符，所有文件可以在同一个文件夹下面，你也可以自己更改目录，下面是MySQL注入php代码
 
 注入文件名称必须是setup.php
-```
+```php
 <?php
 $host = 'localhost'; // 数据库服务器
 $user = ''; // 数据库用户名
@@ -844,7 +844,7 @@ try {
 ----
 ##### 注意事项
 1、index.php页面里面的
-```
+```html
 <meta charset="utf-8">
 		<title>你的站点名称</title>
 		<link rel="stylesheet" href="https://guild.hypcvgm.top/member/static/css/mdui.min.css">
